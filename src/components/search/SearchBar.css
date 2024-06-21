@@ -66,3 +66,13 @@ box-shadow: 5px -8px 36px -13px rgba(0,0,0,0.45);
 .template h3{
   width: 280px;
 }
+
+@media screen and (max-width: 480px) {
+.templateContainer .template_Container{
+  display: grid;
+  grid-template-columns:auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+}
