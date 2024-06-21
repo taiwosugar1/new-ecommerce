@@ -1,6 +1,9 @@
 .men{
     display: flex;
-    margin:40px 20px;
+   margin: 0;
+   padding: 0;
+    width: 100%;
+    flex-direction: row;
 }
 
 .men-shoes{
@@ -17,7 +20,7 @@
     cursor: pointer;
 }
 .single-men{
-    display: flex;
+  display: flex;
 }
 
 .single-men img{
@@ -103,7 +106,8 @@
     text-decoration: line-through;
 
 }
-.cart-button:hover,.cart-button span:hover{
+.cart-button:hover,
+.cart-button span:hover{
     background: white;
     color: #000;
 }
@@ -123,11 +127,124 @@
 
 
 .Tree-Runner-Highlights{
-    width: 760px;
+    width: 53%;
     background: rgb(243, 240, 240);
     margin: -20px 50px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    line-height: 10px;
+    
+}
+.Tree-Runner-Highlights p{
+   line-height: 14px;
+}
+.Tree-Runner{
+    width: 50%;
+    margin: 50px 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 8px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .men{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        width: 100%;
+    }
+    
+    .men-shoes{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 50px;
+    }
+    .men-shoes img{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        margin: 5px;
+        background: rgb(243, 240, 240);
+        cursor: pointer;
+    }
+    .single-men{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    
+    .single-men img{
+        width: 400px;
+       
+        height: 500px;
+        object-fit: cover;
+        background: rgb(243, 240, 240);
+    }
+    .men-details{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        line-height: 15px;
+      
+        
+    }
+    
+.round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.round img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid grey;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.single-men .men-round{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.men-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: -40px;
+}
+.round .size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1.3px solid black;
+    cursor: pointer;
+}
+.cart-button{
+    width: 250px;
+}
+
+.Tree-Runner-Highlights{
+    width: 90%;
+    background: rgb(243, 240, 240);
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -135,13 +252,15 @@
     
 }
 .Tree-Runner{
-    width: 760px;
-    margin: 50px 50px;
+    width: 90%;
+    margin: 10px;
     display: flex;
-    justify-content: center;
     align-items: start;
     justify-content: center;
     flex-direction: column;
     line-height: 5px;
     
+}
+
+
 }

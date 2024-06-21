@@ -28,6 +28,7 @@ const Men = () => {
     <>
      
       <div className='men'>
+        
         <div className="men-shoes">
           {/* Clicking on each image will change the category */}
           <img src="https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('men1')} />

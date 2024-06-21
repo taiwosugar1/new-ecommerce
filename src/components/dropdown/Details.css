@@ -45,3 +45,27 @@
     margin-left: 20px;
 }
 
+@media screen and (max-width:480px){
+    .detailsbtn{
+        border: none;
+        font-weight: 600;
+        background: none;
+        cursor: pointer;
+        display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         width: 400px;
+        height: auto;
+     }
+     .detailsbtn:hover{ 
+         background: rgb(194, 189, 189);
+     }
+     
+     .all-dtails{
+         width: 450px;
+         padding: 20px;
+         height: auto;
+     }
+}
+

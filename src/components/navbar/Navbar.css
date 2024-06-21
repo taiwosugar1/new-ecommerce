@@ -4,34 +4,37 @@
       justify-content: center;
       align-items: center;
       height: 40px;
-      position: sticky;
       width: 100%;
-      top: 0;
       background-color: teal;
       color: white;
-      z-index: 999;
+      
      
 }
-.navbar header nav ul{
+
+.navbar ul{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     color: white;
+   
 }
-.navbar header nav ul li a{
+.navbar  ul li{
+   width: 120px;
+   margin: 5px;
+}
+.navbar ul li a{
     color: white;
     font-size: 12px;
-    width: 100px;
+    width: 120px;
     margin: 5px;
 }
-span{
- 
-    margin: 3px;
+.navbar ul span{
     color: white;
-
+    margin-right: 20px;
+    
 }
-.navbar header nav ul h5{
+.navbar ul h5{
     color: white;
 }
 
