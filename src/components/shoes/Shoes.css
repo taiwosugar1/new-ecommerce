@@ -57,6 +57,44 @@
     background: url("https://images.pexels.com/photos/4046718/pexels-photo-4046718.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
 
+/* ---------tab screen---------- */
+
+@media screen and (max-width: 780px){
+
+    .shoe{
+        background: #333;
+        width: 90%;
+    }
+    .shoes{
+        margin-top: 230px;
+    }
+    .shoe-A, .shoe-B, .shoe-C{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+    }
+    .shoe-B{
+        height: 200px;
+    }
+    .shoe4,.shoe5,.shoe6{
+        width: 30%;
+        border-radius: 10px;
+        height: 200px;
+        margin: 2px;
+    }
+    
+    .shoe1, .shoe2, .shoe3, 
+    .shoe7,.shoe8,.shoe9{
+       
+        border-radius: 10px 0 0 10px;
+        height: 80px;
+        margin: 2px;
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 480px){
 
     .shoe{

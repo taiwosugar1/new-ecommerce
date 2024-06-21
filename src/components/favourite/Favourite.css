@@ -50,6 +50,37 @@ hr{
 .boxs img:hover{
    background: linear-gradient();
 }
+
+/* --------------tab media------------- */
+
+@media screen and (max-width: 780px ){
+
+    .favourite-lite{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+    }
+    .favorite{
+       display: grid;
+       grid-template-columns: auto;
+        width: 100%;
+        height: auto;
+    }
+    .favour-h2{
+    
+        color: black;
+        text-decoration: underline;
+        line-height: 20px;
+    }
+    .favours{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+}
 @media screen and (max-width: 480px ){
 
     .favourite-lite{

@@ -9,9 +9,10 @@
 .nav nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
-    height: 65px;
+    height: auto;
     -moz-box-shadow: 2px 11px 21px -8px rgba(0,0,0,0.25);
     -webkit-box-shadow: 2px 11px 21px -8px rgba(0,0,0,0.25);
     box-shadow: 2px 11px 21px -8px rgba(0,0,0,0.25);
@@ -21,7 +22,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-
+    margin: 10px;
 }
 .nav nav ul li a{
     margin: 20px;
@@ -51,12 +52,15 @@
 }
 .nav nav .icons{
     display: flex;
+    background: grey;
+    border-radius: 5px;
 }
 .nav nav .icons .icon{
-    margin: 10px;
+    margin: 5px;
     font-size: 20px;
     cursor: pointer;
-    color: rgb(54, 50, 50);;
+    color: aqua;
+    padding: 4px;
 }
 .logo a{
     font-style: oblique;
@@ -69,17 +73,65 @@
 
  /* -----------------mobile screen-----------  */
 
- @media screen and( max-width: 480px){
+ @media screen and ( max-width: 780px){
     
     .nav nav{
         display: grid;
         place-content: center;
         grid-template-columns: auto auto;
         width: 100%;
-        height: auto;
-        
+        height: 100px;
         -moz-box-shadow: 2px 11px 21px -8px rgba(0,0,0,0.25);
         -webkit-box-shadow: 2px 11px 21px -8px rgba(0,0,0,0.25);
         box-shadow: 2px 11px 21px -8px rgba(0,0,0,0.25);
+    }
+    .nav nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    
+    }
+    .nav nav ul li a{
+        margin: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(54, 50, 50);
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .nav nav ul li a:hover{
+        text-decoration: underline;
+    }
+    .nav nav .logo{
+        margin: 0px 10px;
+        cursor: pointer;
+        font-style: oblique;
+        font-weight: 500;
+        color: rgb(54, 50, 50);
+        transform: rotate(-6deg);
+        transition: all 0.3s ease;
+    }
+    .nav nav .logo:hover, .logo a:hover{
+        transform: rotate(0deg);
+        text-decoration: underline;
+        color: teal;
+    }
+    .nav nav .icons{
+        display: flex;
+    }
+    .nav nav .icons .icon{
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        color: aqua;
+    }
+    .logo a{
+        font-style: oblique;
+        font-weight: 700;
+        color: rgb(54, 50, 50);
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
     }
  }
