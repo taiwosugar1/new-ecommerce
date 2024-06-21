@@ -1,0 +1,147 @@
+.men{
+    display: flex;
+    margin:40px 20px;
+}
+
+.men-shoes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.men-shoes img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 10px 30px;
+    background: rgb(243, 240, 240);
+    cursor: pointer;
+}
+.single-men{
+    display: flex;
+}
+
+.single-men img{
+    width: 650px;
+    height: 600px;
+    object-fit: cover;
+    background: rgb(243, 240, 240);
+}
+.men-details{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    line-height: 15px;
+    margin-left: 50px;
+    
+}
+
+.men-details p{
+    margin-left: 0px;
+}
+.men-details p i{
+    margin-left: 15px;
+    padding: 2px 5px;
+    background: rgb(221, 215, 215);
+}
+.men-details-ul a{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+.men-details-ul a:hover{
+    text-decoration: underline;
+}
+.round{
+    display: flex;
+
+}
+.round img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid grey;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.single-men .men-round{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.round .size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: 1.3px solid black;
+    cursor: pointer;
+}
+.round .size:hover{
+    background: rgb(229, 223, 223);
+}
+.cart{
+    font-size: 12px;
+    line-height: 20px;
+}
+.cart-button{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    background: #000;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    cursor: pointer;
+}
+.cart-button span{
+    color: white;
+    background: #000;
+    text-decoration: line-through;
+
+}
+.cart-button:hover,.cart-button span:hover{
+    background: white;
+    color: #000;
+}
+.cart2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 20px;
+}
+.cart2 p a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.Tree-Runner-Highlights{
+    width: 760px;
+    background: rgb(243, 240, 240);
+    margin: -20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 5px;
+    
+}
+.Tree-Runner{
+    width: 760px;
+    margin: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 5px;
+    
+}

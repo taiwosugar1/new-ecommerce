@@ -1,0 +1,94 @@
+.shoe{
+    background: #333;
+    width: 100%;
+}
+
+.shoe-A, .shoe-B, .shoe-C{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+.shoe-B{
+    height: 300px;
+}
+
+.shoe1, .shoe2, .shoe3, 
+.shoe7,.shoe8,.shoe9{
+   
+    border-radius: 10px 0 0 10px;
+    height: 100px;
+    margin: 2px;
+    width: 33%;
+}
+.shoe1{
+    background: url("https://images.pexels.com/photos/7130488/pexels-photo-7130488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.shoe2{
+    background: url("https://images.pexels.com/photos/2264700/pexels-photo-2264700.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.shoe3{
+    background: url("https://images.pexels.com/photos/1096664/pexels-photo-1096664.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.shoe4,.shoe5,.shoe6{
+    width: 33%;
+    border-radius: 10px;
+    height: 300px;
+    margin: 2px;
+}
+.shoe4{
+    background: url("https://images.pexels.com/photos/267301/pexels-photo-267301.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.shoe5{
+    background: url("https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.shoe6{
+    background: url("https://images.pexels.com/photos/2300334/pexels-photo-2300334.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.shoe7{
+    background: url("https://images.pexels.com/photos/6070367/pexels-photo-6070367.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.shoe8{
+    background: url("https://images.pexels.com/photos/5987164/pexels-photo-5987164.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.shoe9{
+    background: url("https://images.pexels.com/photos/4046718/pexels-photo-4046718.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+@media screen and (max-width: 480px){
+
+    .shoe{
+        background: #333;
+        width: 90%;
+    }
+    .shoes{
+        margin-top: 230px;
+    }
+    .shoe-A, .shoe-B, .shoe-C{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+    }
+    .shoe-B{
+        height: 200px;
+    }
+    .shoe4,.shoe5,.shoe6{
+        width: 25%;
+        border-radius: 10px;
+        height: 200px;
+        margin: 2px;
+    }
+    
+    .shoe1, .shoe2, .shoe3, 
+    .shoe7,.shoe8,.shoe9{
+       
+        border-radius: 10px 0 0 10px;
+        height: 80px;
+        margin: 2px;
+        width: 25%;
+    }
+}

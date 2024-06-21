@@ -1,0 +1,47 @@
+.detailsbtn{
+   border: none;
+   font-weight: 600;
+   background: none;
+   cursor: pointer;
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 10px;
+}
+.detailsbtn:hover{ 
+    background: rgb(194, 189, 189);
+}
+
+.all-dtails{
+    width: 700px;
+    padding: 20px;
+}
+.all-dtails:hover{
+
+    background: rgb(222, 217, 217);
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+.all-details-div{
+  justify-content: start;
+  align-items: start;
+  display: flex;
+  line-height: 20px;
+}
+.all-details-div h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.all-details-div p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    
+}
+.all-details-div p a{
+    margin-left: 20px;
+}
+

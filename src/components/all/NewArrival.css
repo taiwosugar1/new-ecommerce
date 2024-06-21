@@ -1,0 +1,21 @@
+.new-arrival{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.new-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+   
+    border-radius: 5px;
+    margin: 10px;
+
+}

@@ -1,0 +1,162 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.hero-box{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 450px;
+    animation: hero 60s infinite;
+}
+@keyframes hero{
+    0%{
+        background: url("https://images.pexels.com/photos/786003/pexels-photo-786003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"), no-repeat;
+        object-fit: cover;
+    }
+    10%{
+        background: url("https://images.pexels.com/photos/981619/pexels-photo-981619.jpeg?auto=compress&cs=tinysrgb&w=600"), no-repeat;
+        object-fit: cover;
+        background-size: cover;
+    }
+    20%{
+        background: url("https://images.pexels.com/photos/3932882/pexels-photo-3932882.jpeg?auto=compress&cs=tinysrgb&w=600");
+        object-fit: cover;
+    }
+    30%{
+        background: url("https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600");
+        object-fit: cover;
+    }
+    40%{
+        background: url("https://images.pexels.com/photos/786003/pexels-photo-786003.jpeg?auto=compress&cs=tinysrgb&w=600");
+        object-fit: cover;
+    }
+    50%{
+        background: url("https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D");
+        object-fit: cover;
+    }
+    60%{
+        background: url("https://images.pexels.com/photos/260044/pexels-photo-260044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        object-fit: cover;
+    }
+    70%{
+        background: url("https://images.pexels.com/photos/318236/pexels-photo-318236.jpeg?auto=compress&cs=tinysrgb&w=600");
+        object-fit: cover;
+    }
+    80%{
+        background: url("https://images.pexels.com/photos/1445696/pexels-photo-1445696.jpeg?auto=compress&cs=tinysrgb&w=600");
+        object-fit: cover;
+    }
+    90%{
+        background: url("https://images.pexels.com/photos/637076/pexels-photo-637076.jpeg?auto=compress&cs=tinysrgb&w=600");
+        object-fit: cover;
+    }
+    100%{
+        background: url("https://images.pexels.com/photos/4241704/pexels-photo-4241704.jpeg?auto=compress&cs=tinysrgb&w=600");
+        object-fit: cover;
+    }
+}
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 40px;
+}
+.hero-right button{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding: 40px;
+    line-height: 15px;
+    margin-top: 140px;
+}
+.hero-left h1{
+    color: white;
+    font-size: 50px;
+
+}
+.hero-left h3{
+    color: white;
+    
+}
+
+.hero-left button{
+    border: none;
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    background: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 10px;
+}
+.hero-left button:hover{
+    background: #000;
+    color: white;
+}
+
+
+@media screen and ( max-width: 480px) {
+    .hero-box{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        height: 250px;
+        animation: hero 60s infinite;
+    }
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px;
+        line-height: 15px;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .hero-left h1{
+        color: rgb(169, 74, 179);
+        text-shadow: 2px 2px red;
+        font-size: 30px;
+    
+    }
+    .hero-left h3{
+        color: white;
+        text-shadow: 2px 2px black;
+        font-size: 17px;
+        width: 200px;
+    }
+    .hero-button{
+        display: flex;
+    }
+    
+.hero-left button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 11px;
+}
+}

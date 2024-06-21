@@ -1,0 +1,68 @@
+.templateContainer{
+  margin: 5% 0;
+}
+.templateContainer > .searchInput_Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: sticky;
+  top: 65px;
+  left: 300px;
+}
+.templateContainer > .searchInput_Container input{
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  background: rgb(110, 109, 109);
+  border: 3px solid orange;
+  border-radius: 5px;
+}
+.templateContainer .template_Container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.templateContainer .template_Container .template{
+  background-color: white;
+  margin: 10px;
+  padding: 0px 20px;
+  text-align: start;
+}
+
+.templateContainer .template_Container .template img{
+  height: 400px;
+  width: 300px;
+  cursor: pointer;
+}
+
+
+.templateContainer button{
+  background: black;
+  color: white;
+  border: none;
+  margin: 0px 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid black;
+  font-weight: 600;
+}
+.templateContainer button:hover{
+  background: white;
+  color: #000;
+}
+ .details{
+  width: 280px;
+}
+.template{
+  -moz-box-shadow: 5px -8px 36px -13px rgba(0,0,0,0.45);
+-webkit-box-shadow: 5px -8px 36px -13px rgba(0,0,0,0.45);
+box-shadow: 5px -8px 36px -13px rgba(0,0,0,0.45);
+}
+.template h3{
+  width: 280px;
+}
